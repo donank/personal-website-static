@@ -1,0 +1,8 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+app-header-layout {
+    background: rgb(245, 156, 156);
+    font: 100% $font-stack;
+    color: $primary-color;
+}
