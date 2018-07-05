@@ -2,11 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { BlogComponent } from './blog.component';
+import { SocialComponent } from './social.component';
 
 @NgModule({
   declarations: [
-    BlogComponent
+    SocialComponent
   ],
   imports: [
     BrowserModule,
@@ -14,6 +14,6 @@ import { BlogComponent } from './blog.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [BlogComponent]
+  bootstrap: [SocialComponent]
 })
-export class BlogModule { }
+export class SocialModule { }

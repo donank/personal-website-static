@@ -2,11 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { BlogComponent } from './blog.component';
+import { InterceptorComponent } from './interceptor.component';
 
 @NgModule({
   declarations: [
-    BlogComponent
+    InterceptorComponent
   ],
   imports: [
     BrowserModule,
@@ -14,6 +14,6 @@ import { BlogComponent } from './blog.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [BlogComponent]
+  bootstrap: [InterceptorComponent]
 })
-export class BlogModule { }
+export class InterceptorModule { }

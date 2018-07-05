@@ -1,23 +1,33 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
+import { AboutComponent } from './about/about.component';
+import { BlogComponent } from './blog/blog.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { SocialComponent } from './social/social.component';
+import { InterceptorComponent } from './interceptor/interceptor.component';
 
 const routes = [
     {
         path: 'about',
-        loadChildren:'./about/about.module#AboutModule'
+        component: AboutComponent
     },
     {
         path: 'projects',
-        loadChildren:'./about/projects.module#ProjectsModule'
+        component: ProjectsComponent
     },
     {
         path: 'blog',
-        loadChildren:'./about/blog.module#BlogModule'
+        component: BlogComponent
     },
     {
         path: 'social',
-        loadChildren:'./about/social.module#SocialModule'
+        component: SocialComponent
+    },
+    { 
+        path: '**', 
+        component: InterceptorComponent
     }
+
 ];
 
 @NgModule({
