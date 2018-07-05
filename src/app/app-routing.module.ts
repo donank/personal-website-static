@@ -4,7 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { SocialComponent } from './social/social.component';
-import { InterceptorComponent } from './interceptor/interceptor.component';
+import { Error404Component } from './error404/error404.component';
 
 const routes = [
     {
@@ -25,7 +25,7 @@ const routes = [
     },
     { 
         path: '**', 
-        component: InterceptorComponent
+        component: Error404Component
     }
 
 ];

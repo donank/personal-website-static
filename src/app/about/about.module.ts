@@ -13,7 +13,6 @@ import { AboutComponent } from './about.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
-  bootstrap: [AboutComponent]
+  providers: []
 })
 export class AboutModule { }

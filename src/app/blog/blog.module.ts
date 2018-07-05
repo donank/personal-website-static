@@ -14,6 +14,5 @@ import { BlogComponent } from './blog.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [BlogComponent]
 })
 export class BlogModule { }

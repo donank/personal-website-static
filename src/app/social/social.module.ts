@@ -13,7 +13,6 @@ import { SocialComponent } from './social.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
-  bootstrap: [SocialComponent]
+  providers: []
 })
 export class SocialModule { }

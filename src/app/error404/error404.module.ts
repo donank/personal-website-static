@@ -2,18 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { InterceptorComponent } from './interceptor.component';
+import { Error404Component } from './error404.component';
 
 @NgModule({
   declarations: [
-    InterceptorComponent
+    Error404Component
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
-  bootstrap: [InterceptorComponent]
+  providers: []
 })
-export class InterceptorModule { }
+export class Error404Module { }

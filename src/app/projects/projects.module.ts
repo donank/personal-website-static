@@ -13,7 +13,6 @@ import { ProjectsComponent } from './projects.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
-  bootstrap: [ProjectsComponent]
+  providers: []
 })
 export class InterceptorModule { }
